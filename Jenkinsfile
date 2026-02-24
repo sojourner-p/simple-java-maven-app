@@ -3,6 +3,7 @@ pipeline {
     tools {
         // This name MUST match the Name you gave it in Manage Jenkins > Tools
         maven 'maven-3.9'
+    }
     options {
         skipStagesAfterUnstable()
     }
